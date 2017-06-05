@@ -1,0 +1,117 @@
+/*样式重置*/
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0;
+}
+
+/*通用样式开始*/
+.wrapper{
+    width: 890px;
+    margin: 0 auto;
+}
+body{
+    font-size: 13px;
+}
+/*通用样式结束*/
+
+/*header开始*/
+#header{
+    
+
+}
+#top-nav{
+    height: 30px;
+    line-height: 30px;
+    background: #f4f4f4;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+#search-box{
+    width: 48px;
+    border-right: 1px solid #bdbdbd;
+    float: left;
+    text-align: center;
+}
+#search-box .glyphicon-search:hover{
+    color: #f00;
+    /*cursor: pointer;*/
+}
+#top-menu{
+    float: right;
+}
+#top-menu li{
+    float: left;
+    margin-right: 5px;
+}
+
+#search-box .glyphicon-search{
+    color: #dbdbdb;
+    font-size: 15px;
+}
+#top-menu .follow-us{
+    color: #dbdbdb;
+}
+#top-menu .follow-us:hover{
+    color: #f00;
+}
+#top-menu .share a{
+    font-size: 17px;
+    color: #dbdbdb;
+}
+#top-menu .share a:hover{
+    color: #f00;
+}
+#top-menu .btn-login,.btn-register{
+    width: 82px;
+    height: 30px;
+    text-align: center;
+    margin-right: 1px;
+}
+#top-menu .btn-login a,.btn-register a{
+    color: #fff;
+}
+#top-menu .btn-login a:hover,.btn-register a:hover{
+    color: #040404;
+}
+#top-menu .btn-login{
+    background: #424242;
+}
+#top-menu .btn-register{
+    background: #e5412d;
+}
+#nav{
+    height: 54px;
+    line-height: 54px;
+    border: 1px solid #bdbdbd;
+}
+#nav .logo,.menu-btn{
+    float: left;
+}
+#nav .menu-btn{
+    padding: 0 10px;
+}
+#nav .nav-menu{
+    float: right;
+}
+#nav .nav-menu a{
+    font-size: 14px;
+    color: #040404;
+    font-weight: bold;
+}
+#nav .nav-menu a:hover{
+    color: #f00;
+}
+#nav .logo {
+    color: #e5412d;
+    font-size: 31px;
+}
+/*header结束*/

@@ -1,0 +1,13 @@
+/*content¿ªÊ¼*/
+#content .title {
+    font-size: 24px;
+    color: #7c7c7c;
+    padding: 13px 0;
+}
+#content .title a{
+    margin-right: 7px;
+}
+.log{
+    float: right;
+    background: #bdbdbd;
+}
