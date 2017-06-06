@@ -1,0 +1,11 @@
+/*轮播图组件开始*/
+.carousel{
+    width: 890px;
+    position: relative;
+    overflow: hidden;
+}
+.carousel-box{
+    position: absolute;
+    left: 0;
+}
+/*轮播图组件结束*/

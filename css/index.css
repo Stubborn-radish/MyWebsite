@@ -7,7 +7,57 @@
 #content .title a{
     margin-right: 7px;
 }
-.log{
+.carousel-box{
+    width: 2670px;
+}
+.carousel-img{
+
+}
+.carousel-item{
+    width: 890px;
+    float: left;
+}
+.carousel-log{
+    width: 611px;
+    height: 260px;
     float: right;
-    background: #bdbdbd;
+    text-align: center;
+    margin-left: 10px;
+    background: #f4f4f4;
+}
+.carousel-log h1{
+    margin-top: 20px;
+    font-size: 26px;
+    color: #4d4d4d;
+    font-weight: 400;
+}
+.carousel-log p{
+    color: #7c7c7c;
+    line-height: 20px;
+}
+.carousel-log a{
+    background: #424242;
+    color: #fff;
+    height: 44px;
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    line-height: 44px;
+}
+.carousel-log a:hover{
+    color: #f00;
+}
+.carousel-btn{
+    height: 30px;
+    line-height: 30px;
+}
+.carousel-btn li{
+    width: 10px;
+    height: 10px;
+    background: #f09388;
+    float: right;
+    margin-right: 6px;
+}
+.carousel-btn .selected{
+    background: #e5412d;
 }

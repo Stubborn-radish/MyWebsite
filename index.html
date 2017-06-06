@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/index.css"/>
 <link rel="stylesheet" href="css/style.css"/>
 <link rel="stylesheet" href="fonts/glyphicons/css/glyphicons.css"/>
+<link rel="stylesheet" href="css/carousel.css"/>
 <body>
     <div id="header">
         <div id="top-nav">
@@ -47,41 +48,51 @@
             <span><a href="#" class="glyphicon glyphicon-camera"></a></span>日志
         </h1>
         <div class="carousel">
-            <div class="carousel-item">
-                <img src="img/1.jpg" alt="#"/>
-                <div class="log">
-                    <h1>日志ONE</h1>
-                    <p>其实我渴望有一天，能够透明一些，心意全部被你知道，会珍惜不会骄傲，其实我真的喜欢你，
-                        但还没有爱上你，希望你就是对的人，能和我 彼此宠爱</p>
-                    <a href="#">
-                        <span class="glyphicon glyphicon-heart-empty">查看</span>
-                    </a>
+            <div class="carousel-box">
+                <div class="carousel-item">
+                    <img class="carousel-img" src="img/1.jpg" alt="#"/>
+                    <div class="carousel-log">
+                        <h1>日志ONE</h1>
+                        <p>其实我渴望有一天，能够透明一些，心意全部被你知道，会珍惜不会骄傲，其实我真的喜欢你，
+                            但还没有爱上你，希望你就是对的人，能和我 彼此宠爱</p>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-heart-empty">查看</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="img/6.jpg" alt="#"/>
+                    <div class="carousel-log">
+                        <h1>日志TWO</h1>
+                        <p>不是每一次的约会,你约我就出现,不是每一通的电话,你打来我都会接,爱情不是投入越快
+                            ,就可以收获更多,喜欢被你送到家门,但不能请你喝咖啡</p>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-heart-empty">查看</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="img/7.jpg" alt="#"/>
+                    <div class="carousel-log">
+                        <h1>日志THREE</h1>
+                        <p>可是我永不会追,我要让你忍不住动心,要保持魅力,忽远又忽近,不能随意献殷勤,要像蜜桃般甜美
+                            阅读更多书籍,充实自己更完美</p>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-heart-empty">查看</span>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="img/6.jpg" alt="#"/>
-                <div class="log">
-                    <h1>日志TWO</h1>
-                    <p>不是每一次的约会,你约我就出现,不是每一通的电话,你打来我都会接,爱情不是投入越快
-                        ,就可以收获更多,喜欢被你送到家门,但不能请你喝咖啡</p>
-                    <a href="#">
-                        <span class="glyphicon glyphicon-heart-empty">查看</span>
-                    </a>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/7.jpg" alt="#"/>
-                <div class="log">
-                    <h1>日志THREE</h1>
-                    <p>可是我永不会追,我要让你忍不住动心,要保持魅力,忽远又忽近,不能随意献殷勤,要像蜜桃般甜美
-                        阅读更多书籍,充实自己更完美</p>
-                    <a href="#">
-                        <span class="glyphicon glyphicon-heart-empty">查看</span>
-                    </a>
-                </div>
+            <div class="carousel-btn">
+                <ul>
+                    <li class="selected"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
         </div>
     </div>
-
+    <script src="jquery/jquery-1.12.4.js"></script>
+    <script src="jquery/carousel.js"></script>
 </body>
 </html>
